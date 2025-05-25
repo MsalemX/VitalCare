@@ -1,0 +1,138 @@
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link rel="stylesheet" as="style" onload="this.rel='stylesheet'"
+        href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900" />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+</head>
+
+<body>
+    <div class="relative flex size-full min-h-screen flex-col bg-gray-50 group/design-root overflow-x-hidden"
+        style='font-family: Inter, "Noto Sans", sans-serif;'>
+        <div class="layout-container flex h-full grow flex-col">
+            <div class="gap-1 px-6 flex flex-1 justify-center py-5">
+
+                <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+                    <div class="flex flex-wrap justify-between gap-3 p-4">
+                        <p class="text-[#101518] tracking-light text-[32px] font-bold leading-tight min-w-72">Patient
+                            Profile</p>
+                    </div>
+                    <div class="flex p-4 @container">
+                        <div
+                            class="flex w-full flex-col gap-4 @[520px]:flex-row @[520px]:justify-between @[520px]:items-center">
+                            <div class="flex gap-4">
+                                <div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full min-h-32 w-32"
+                                    style='background-image: url("Mohammed.jpg");'>
+                                </div>
+                                <div class="flex flex-col justify-center">
+                                    <p class="text-[#101518] text-[22px] font-bold leading-tight tracking-[-0.015em]">
+                                        Sophia Clark</p>
+                                    <p class="text-[#5c748a] text-base font-normal leading-normal">Patient ID: 123456
+                                    </p>
+                                    <p class="text-[#5c748a] text-base font-normal leading-normal">Last Updated:
+                                        2024-01-15</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h2 class="text-[#101518] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">
+                        Personal Information</h2>
+                    <div class="p-4 grid grid-cols-[20%_1fr] gap-x-6">
+                        <div class="col-span-2 grid grid-cols-subgrid border-t border-t-[#d4dce2] py-5">
+                            <p class="text-[#5c748a] text-sm font-normal leading-normal">Full Name</p>
+                            <p class="text-[#101518] text-sm font-normal leading-normal">Sophia Clark</p>
+                        </div>
+                        <div class="col-span-2 grid grid-cols-subgrid border-t border-t-[#d4dce2] py-5">
+                            <p class="text-[#5c748a] text-sm font-normal leading-normal">Date of Birth</p>
+                            <p class="text-[#101518] text-sm font-normal leading-normal">1994-05-20</p>
+                        </div>
+                        <div class="col-span-2 grid grid-cols-subgrid border-t border-t-[#d4dce2] py-5">
+                            <p class="text-[#5c748a] text-sm font-normal leading-normal">Contact Number</p>
+                            <p class="text-[#101518] text-sm font-normal leading-normal">+1-555-123-4567</p>
+                        </div>
+                        <div class="col-span-2 grid grid-cols-subgrid border-t border-t-[#d4dce2] py-5">
+                            <p class="text-[#5c748a] text-sm font-normal leading-normal">Email Address</p>
+                            <p class="text-[#101518] text-sm font-normal leading-normal">sophia.clark@email.com</p>
+                        </div>
+                    </div>
+                    <h2 class="text-[#101518] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">
+                        Medical Information</h2>
+                    <div class="p-4 grid grid-cols-[20%_1fr] gap-x-6">
+                        <div class="col-span-2 grid grid-cols-subgrid border-t border-t-[#d4dce2] py-5">
+                            <p class="text-[#5c748a] text-sm font-normal leading-normal">Condition</p>
+                            <p class="text-[#101518] text-sm font-normal leading-normal">Hypertension</p>
+                        </div>
+                        <div class="col-span-2 grid grid-cols-subgrid border-t border-t-[#d4dce2] py-5">
+                            <p class="text-[#5c748a] text-sm font-normal leading-normal">Medications</p>
+                            <p class="text-[#101518] text-sm font-normal leading-normal">Lisinopril 10mg daily</p>
+                        </div>
+                        <div class="col-span-2 grid grid-cols-subgrid border-t border-t-[#d4dce2] py-5">
+                            <p class="text-[#5c748a] text-sm font-normal leading-normal">Allergies</p>
+                            <p class="text-[#101518] text-sm font-normal leading-normal">None</p>
+                        </div>
+                    </div>
+                    <h2 class="text-[#101518] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">
+                        Interaction History</h2>
+                    <div class="grid grid-cols-[40px_1fr] gap-x-2 px-4">
+                        <div class="flex flex-col items-center gap-1 pt-3">
+                            <div class="text-[#101518]" data-icon="Pill" data-size="24px" data-weight="regular">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor"
+                                    viewBox="0 0 256 256">
+                                    <path
+                                        d="M216.42,39.6a53.26,53.26,0,0,0-75.32,0L39.6,141.09a53.26,53.26,0,0,0,75.32,75.31h0L216.43,114.91A53.31,53.31,0,0,0,216.42,39.6ZM103.61,205.09h0a37.26,37.26,0,0,1-52.7-52.69L96,107.31,148.7,160ZM205.11,103.6,160,148.69,107.32,96l45.1-45.09a37.26,37.26,0,0,1,52.69,52.69ZM189.68,82.34a8,8,0,0,1,0,11.32l-24,24a8,8,0,1,1-11.31-11.32l24-24A8,8,0,0,1,189.68,82.34Z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="w-[1.5px] bg-[#d4dce2] h-2 grow"></div>
+                        </div>
+                        <div class="flex flex-1 flex-col py-3">
+                            <p class="text-[#101518] text-base font-medium leading-normal">Medication Log Updated</p>
+                            <p class="text-[#5c748a] text-base font-normal leading-normal">2024-01-10</p>
+                        </div>
+                        <div class="flex flex-col items-center gap-1">
+                            <div class="w-[1.5px] bg-[#d4dce2] h-2"></div>
+                            <div class="text-[#101518]" data-icon="Calendar" data-size="24px" data-weight="regular">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor"
+                                    viewBox="0 0 256 256">
+                                    <path
+                                        d="M208,32H184V24a8,8,0,0,0-16,0v8H88V24a8,8,0,0,0-16,0v8H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM72,48v8a8,8,0,0,0,16,0V48h80v8a8,8,0,0,0,16,0V48h24V80H48V48ZM208,208H48V96H208V208Zm-96-88v64a8,8,0,0,1-16,0V132.94l-4.42,2.22a8,8,0,0,1-7.16-14.32l16-8A8,8,0,0,1,112,120Zm59.16,30.45L152,176h16a8,8,0,0,1,0,16H136a8,8,0,0,1-6.4-12.8l28.78-38.37A8,8,0,1,0,145.07,132a8,8,0,1,1-13.85-8A24,24,0,0,1,176,136,23.76,23.76,0,0,1,171.16,150.45Z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="w-[1.5px] bg-[#d4dce2] h-2 grow"></div>
+                        </div>
+                        <div class="flex flex-1 flex-col py-3">
+                            <p class="text-[#101518] text-base font-medium leading-normal">Appointment Scheduled</p>
+                            <p class="text-[#5c748a] text-base font-normal leading-normal">2024-01-05</p>
+                        </div>
+                        <div class="flex flex-col items-center gap-1 pb-3">
+                            <div class="w-[1.5px] bg-[#d4dce2] h-2"></div>
+                            <div class="text-[#101518]" data-icon="EnvelopeOpen" data-size="24px" data-weight="regular">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor"
+                                    viewBox="0 0 256 256">
+                                    <path
+                                        d="M228.44,89.34l-96-64a8,8,0,0,0-8.88,0l-96,64A8,8,0,0,0,24,96V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V96A8,8,0,0,0,228.44,89.34ZM96.72,152,40,192V111.53Zm16.37,8h29.82l56.63,40H56.46Zm46.19-8L216,111.53V192ZM128,41.61l81.91,54.61-67,47.78H113.11l-67-47.78Z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="flex flex-1 flex-col py-3">
+                            <p class="text-[#101518] text-base font-medium leading-normal">Message Sent to Doctor</p>
+                            <p class="text-[#5c748a] text-base font-normal leading-normal">2023-12-20</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="animations.js"></script>
+    <script src="ui.js"></script>
+</body>
+
+</html>

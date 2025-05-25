@@ -1,0 +1,207 @@
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link rel="stylesheet" as="style" onload="this.rel='stylesheet'"
+        href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900" />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+</head>
+
+<body>
+    <div class="relative flex size-full min-h-screen flex-col bg-gray-50 group/design-root overflow-x-hidden"
+        style='font-family: Inter, "Noto Sans", sans-serif;'>
+        <div class="layout-container flex h-full grow flex-col">
+            <header
+                class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#eaedf1] px-10 py-3">
+                <div class="flex items-center gap-4 text-[#101518]">
+                    <div class="size-4">
+                        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 6H42L36 24L42 42H6L12 24L6 6Z" fill="currentColor"></path>
+                        </svg>
+                    </div>
+                    <a href="MainPage.html">
+                        <h2 class="text-[#101518] text-lg font-bold leading-tight tracking-[-0.015em]">Vital Care
+                        </h2>
+                    </a>
+                </div>
+                <div class="flex flex-1 justify-end gap-8">
+                    <div class="flex items-center gap-9">
+                        <a class="text-[#0d151c] text-sm font-medium leading-normal" href="MainPage.html">Dashboard</a>
+                        <a class="text-[#0d151c] text-sm font-medium leading-normal"
+                            href="MedicationSchedul.html">MedicationSchedul</a>
+                        <a class="text-[#0d151c] text-sm font-medium leading-normal" href="MedicalLog.html">Medication
+                            Log
+
+                        </a>
+                        <a class="text-[#0d151c] text-sm font-medium leading-normal"
+                            href="PatientCondition.html">PatientCondition</a>
+                        <a class="text-[#0d151c] text-sm font-medium leading-normal" href="Patientinfo.html">Patient
+                            information</a>
+                    </div>
+                    <button
+                        class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 bg-[#eaedf1] text-[#101518] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5">
+                        <div class="text-[#101518]" data-icon="Bell" data-size="20px" data-weight="regular">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor"
+                                viewBox="0 0 256 256">
+                                <path
+                                    d="M221.8,175.94C216.25,166.38,208,139.33,208,104a80,80,0,1,0-160,0c0,35.34-8.26,62.38-13.81,71.94A16,16,0,0,0,48,200H88.81a40,40,0,0,0,78.38,0H208a16,16,0,0,0,13.8-24.06ZM128,216a24,24,0,0,1-22.62-16h45.24A24,24,0,0,1,128,216ZM48,184c7.7-13.24,16-43.92,16-80a64,64,0,1,1,128,0c0,36.05,8.28,66.73,16,80Z">
+                                </path>
+                            </svg>
+                        </div>
+                    </button>
+                    <div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+                        style='background-image: url("Mohammed.jpg");'>
+                    </div>
+                </div>
+            </header>
+            <div class="px-40 flex flex-1 justify-center py-5">
+                <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+                    <div class="flex flex-wrap justify-between gap-3 p-4">
+                        <div class="flex min-w-72 flex-col gap-3">
+                            <p class="text-[#101518] tracking-light text-[32px] font-bold leading-tight">Medication
+                                Schedule</p>
+                            <p class="text-[#5c748a] text-sm font-normal leading-normal">Set up your medication times to
+                                receive reminders.</p>
+                        </div>
+                    </div>
+                    <h3 class="text-[#101518] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">
+                        Morning</h3>
+                    <div class="flex items-center gap-4 bg-gray-50 px-4 min-h-[72px] py-2 justify-between">
+                        <div class="flex items-center gap-4">
+                            <div class="text-[#101518] flex items-center justify-center rounded-lg bg-[#eaedf1] shrink-0 size-12"
+                                data-icon="Pill" data-size="24px" data-weight="regular">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor"
+                                    viewBox="0 0 256 256">
+                                    <path
+                                        d="M216.42,39.6a53.26,53.26,0,0,0-75.32,0L39.6,141.09a53.26,53.26,0,0,0,75.32,75.31h0L216.43,114.91A53.31,53.31,0,0,0,216.42,39.6ZM103.61,205.09h0a37.26,37.26,0,0,1-52.7-52.69L96,107.31,148.7,160ZM205.11,103.6,160,148.69,107.32,96l45.1-45.09a37.26,37.26,0,0,1,52.69,52.69ZM189.68,82.34a8,8,0,0,1,0,11.32l-24,24a8,8,0,1,1-11.31-11.32l24-24A8,8,0,0,1,189.68,82.34Z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="flex flex-col justify-center">
+                                <p class="text-[#101518] text-base font-medium leading-normal line-clamp-1">Aspirin</p>
+                                <p class="text-[#5c748a] text-sm font-normal leading-normal line-clamp-2">8:00 AM</p>
+                            </div>
+                        </div>
+                        <div class="shrink-0">
+                            <div class="text-[#101518] flex size-7 items-center justify-center" data-icon="PencilSimple"
+                                data-size="24px" data-weight="regular">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor"
+                                    viewBox="0 0 256 256">
+                                    <path
+                                        d="M227.31,73.37,182.63,28.68a16,16,0,0,0-22.63,0L36.69,152A15.86,15.86,0,0,0,32,163.31V208a16,16,0,0,0,16,16H92.69A15.86,15.86,0,0,0,104,219.31L227.31,96a16,16,0,0,0,0-22.63ZM92.69,208H48V163.31l88-88L180.69,120ZM192,108.68,147.31,64l24-24L216,84.68Z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4 bg-gray-50 px-4 min-h-[72px] py-2 justify-between">
+                        <div class="flex items-center gap-4">
+                            <div class="text-[#101518] flex items-center justify-center rounded-lg bg-[#eaedf1] shrink-0 size-12"
+                                data-icon="Pill" data-size="24px" data-weight="regular">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor"
+                                    viewBox="0 0 256 256">
+                                    <path
+                                        d="M216.42,39.6a53.26,53.26,0,0,0-75.32,0L39.6,141.09a53.26,53.26,0,0,0,75.32,75.31h0L216.43,114.91A53.31,53.31,0,0,0,216.42,39.6ZM103.61,205.09h0a37.26,37.26,0,0,1-52.7-52.69L96,107.31,148.7,160ZM205.11,103.6,160,148.69,107.32,96l45.1-45.09a37.26,37.26,0,0,1,52.69,52.69ZM189.68,82.34a8,8,0,0,1,0,11.32l-24,24a8,8,0,1,1-11.31-11.32l24-24A8,8,0,0,1,189.68,82.34Z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="flex flex-col justify-center">
+                                <p class="text-[#101518] text-base font-medium leading-normal line-clamp-1">Lisinopril
+                                </p>
+                                <p class="text-[#5c748a] text-sm font-normal leading-normal line-clamp-2">8:00 AM</p>
+                            </div>
+                        </div>
+                        <div class="shrink-0">
+                            <div class="text-[#101518] flex size-7 items-center justify-center" data-icon="PencilSimple"
+                                data-size="24px" data-weight="regular">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor"
+                                    viewBox="0 0 256 256">
+                                    <path
+                                        d="M227.31,73.37,182.63,28.68a16,16,0,0,0-22.63,0L36.69,152A15.86,15.86,0,0,0,32,163.31V208a16,16,0,0,0,16,16H92.69A15.86,15.86,0,0,0,104,219.31L227.31,96a16,16,0,0,0,0-22.63ZM92.69,208H48V163.31l88-88L180.69,120ZM192,108.68,147.31,64l24-24L216,84.68Z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="text-[#101518] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">
+                        Afternoon</h3>
+                    <div class="flex items-center gap-4 bg-gray-50 px-4 min-h-[72px] py-2 justify-between">
+                        <div class="flex items-center gap-4">
+                            <div class="text-[#101518] flex items-center justify-center rounded-lg bg-[#eaedf1] shrink-0 size-12"
+                                data-icon="Pill" data-size="24px" data-weight="regular">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor"
+                                    viewBox="0 0 256 256">
+                                    <path
+                                        d="M216.42,39.6a53.26,53.26,0,0,0-75.32,0L39.6,141.09a53.26,53.26,0,0,0,75.32,75.31h0L216.43,114.91A53.31,53.31,0,0,0,216.42,39.6ZM103.61,205.09h0a37.26,37.26,0,0,1-52.7-52.69L96,107.31,148.7,160ZM205.11,103.6,160,148.69,107.32,96l45.1-45.09a37.26,37.26,0,0,1,52.69,52.69ZM189.68,82.34a8,8,0,0,1,0,11.32l-24,24a8,8,0,1,1-11.31-11.32l24-24A8,8,0,0,1,189.68,82.34Z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="flex flex-col justify-center">
+                                <p class="text-[#101518] text-base font-medium leading-normal line-clamp-1">Metoprolol
+                                </p>
+                                <p class="text-[#5c748a] text-sm font-normal leading-normal line-clamp-2">1:00 PM</p>
+                            </div>
+                        </div>
+                        <div class="shrink-0">
+                            <div class="text-[#101518] flex size-7 items-center justify-center" data-icon="PencilSimple"
+                                data-size="24px" data-weight="regular">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor"
+                                    viewBox="0 0 256 256">
+                                    <path
+                                        d="M227.31,73.37,182.63,28.68a16,16,0,0,0-22.63,0L36.69,152A15.86,15.86,0,0,0,32,163.31V208a16,16,0,0,0,16,16H92.69A15.86,15.86,0,0,0,104,219.31L227.31,96a16,16,0,0,0,0-22.63ZM92.69,208H48V163.31l88-88L180.69,120ZM192,108.68,147.31,64l24-24L216,84.68Z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="text-[#101518] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">
+                        Evening</h3>
+                    <div class="flex items-center gap-4 bg-gray-50 px-4 min-h-[72px] py-2 justify-between">
+                        <div class="flex items-center gap-4">
+                            <div class="text-[#101518] flex items-center justify-center rounded-lg bg-[#eaedf1] shrink-0 size-12"
+                                data-icon="Pill" data-size="24px" data-weight="regular">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor"
+                                    viewBox="0 0 256 256">
+                                    <path
+                                        d="M216.42,39.6a53.26,53.26,0,0,0-75.32,0L39.6,141.09a53.26,53.26,0,0,0,75.32,75.31h0L216.43,114.91A53.31,53.31,0,0,0,216.42,39.6ZM103.61,205.09h0a37.26,37.26,0,0,1-52.7-52.69L96,107.31,148.7,160ZM205.11,103.6,160,148.69,107.32,96l45.1-45.09a37.26,37.26,0,0,1,52.69,52.69ZM189.68,82.34a8,8,0,0,1,0,11.32l-24,24a8,8,0,1,1-11.31-11.32l24-24A8,8,0,0,1,189.68,82.34Z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="flex flex-col justify-center">
+                                <p class="text-[#101518] text-base font-medium leading-normal line-clamp-1">Atorvastatin
+                                </p>
+                                <p class="text-[#5c748a] text-sm font-normal leading-normal line-clamp-2">7:00 PM</p>
+                            </div>
+                        </div>
+                        <div class="shrink-0">
+                            <div class="text-[#101518] flex size-7 items-center justify-center" data-icon="PencilSimple"
+                                data-size="24px" data-weight="regular">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor"
+                                    viewBox="0 0 256 256">
+                                    <path
+                                        d="M227.31,73.37,182.63,28.68a16,16,0,0,0-22.63,0L36.69,152A15.86,15.86,0,0,0,32,163.31V208a16,16,0,0,0,16,16H92.69A15.86,15.86,0,0,0,104,219.31L227.31,96a16,16,0,0,0,0-22.63ZM92.69,208H48V163.31l88-88L180.69,120ZM192,108.68,147.31,64l24-24L216,84.68Z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex px-4 py-3 justify-end">
+                        <button
+                            class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#eaedf1] text-[#101518] text-sm font-bold leading-normal tracking-[0.015em]">
+                            <span class="truncate">Add Medication</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="animations.js"></script>
+    <script src="ui.js"></script>
+</body>
+
+</html>
